@@ -1,0 +1,287 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+
+
+
+<div class="page-content">
+
+<!-- 
+<div class="row">
+
+  <div class="col-md-2">
+  	<div class="panel">
+  		<div class="panel-body">Basic panel example</div>
+    </div>
+  </div>
+
+  <div class="col-md-2">
+  	<div class="panel">
+  		<div class="panel-body">Basic panel example</div>
+    </div>
+  </div>
+
+  <div class="col-md-2">
+  	<div class="panel">
+  		<div class="panel-body">Basic panel example</div>
+    </div>
+  </div>
+
+  <div class="col-md-2">
+  	<div class="panel">
+  		<div class="panel-body">Basic panel example</div>
+    </div>
+  </div>
+
+  <div class="col-md-2">
+  	<div class="panel">
+  		<div class="panel-body">Basic panel example</div>
+    </div>
+  </div>
+
+  <div class="col-md-2">
+  	<div class="panel">
+  		<div class="panel-body">Basic panel example</div>
+    </div>
+  </div>
+
+</div>
+ -->
+
+
+
+<div class="row">
+
+
+
+
+<div class="col-md-9">
+  <div class="block-grid block-grid-lg-3 block-grid-md-2 block-grid-sm-2 block-grid-xs-1">
+     
+  <!-- 
+      <div class="block-grid-item">
+        <div class="panel">
+                <ul id="myTab1" class="nav nav-tabs nav-justified">
+                  <li class="active"><a href="#home1" data-toggle="tab">Home</a></li>
+                  <li><a href="#profile1" data-toggle="tab">Profile</a></li>
+                </ul>
+                <div id="myTabContent" class="tab-content">
+                  <div class="tab-pane fade active in" id="home1">
+                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+                  </div>
+                  <div class="tab-pane fade" id="profile1">
+                    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.  </p>
+                  </div>
+                </div>
+              </div>
+      </div>
+      <div class="block-grid-item">
+        <div class="panel">
+          <div class="panel-body">Basic panel grid example. With longer content.</div>
+        </div>
+      </div>
+      <div class="block-grid-item">
+        <div class="panel">
+          <div class="panel-body">
+            <img src="http://lorempixel.com/400/200/city/" />
+            Basic panel grid example
+          </div>
+        </div>
+      </div>
+      <div class="block-grid-item">
+        <div class="panel">
+          <div class="panel-body">Basic panel grid example. With longer content. With longer content.</div>
+        </div>
+      </div>
+      <div class="block-grid-item">
+        <div class="panel">
+          <div class="panel-body">Basic panel grid example</div>
+        </div>
+      </div>
+       -->
+
+      {% for i in "abcdefghijklmnopqrstuvwxyz" %}
+      <div class="block-grid-item">
+        <div class="panel search-result">
+
+          
+
+          <div class="img-status-wrapper">
+
+            <div class="status-panel">
+              <a href="#" class="status-button {% if forloop.counter0|divisibleby:4 %}success{% endif %}"><i class="glyphicon glyphicon-phone-alt"></i></a><a href="#" class="status-button {% if forloop.counter0|divisibleby:2 %}success{% endif %}"><i class="glyphicon glyphicon-phone"></i></a><a href="#" class="status-button {% if forloop.counter0|divisibleby:7 %}success{% endif %}"><i class="glyphicon glyphicon-facetime-video"></i></a>
+            </div>
+
+
+          <div class="search-img-wrapper" style="background-image: url(/static/img/sample-img/{{i}}.jpg)">
+            <img src="/static/img/sample-img/{{i}}.jpg" class="main-img" />
+          </div>
+
+        </div>
+
+          
+             
+          
+          <div class="panel-body">
+
+            
+
+            
+            <div class="img-status-wrapper">
+              
+              
+            </div>
+            
+            
+            <h2 class="h5" style="margin: 0">X Rhona X <small>(172)</small></h2> 
+
+            <span class="text-info">Bi-sexual 22 year old Female</span>
+
+            <div style="padding: 7px 0">
+            <a href="#" class="badge badge-default badge-sm">Gallery</a>
+            <a href="#" class="badge badge-default badge-sm">Private Gallery</a>
+            <a href="#" class="badge badge-default badge-sm">Movies</a>
+            </div>
+
+
+
+
+  <p><small>In Derby Emo / Goth / Tattooed / Alt Girl Call! Sexy British Escort for Incalls. Alternative Geek Girl into Anime Central Derby City. DE1 area</small></p>
+
+
+  <div class="location">Derby City Centre, Nottingham, <strong>Derbyshire</strong></div>
+             
+          </div>
+
+            
+
+        </div>
+      </div>
+      {% endfor %}
+
+
+
+
+  <!-- 
+      <div class="block-grid-item">
+        <div class="panel">
+          <div class="panel-body">Basic panel grid example. With longer content. With longer content. With longer content.</div>
+        </div>
+      </div>
+      <div class="block-grid-item">
+        <div class="panel">
+          <div class="panel-body">Basic panel grid example</div>
+        </div>
+      </div>
+
+    </div>
+
+   -->
+
+
+
+  </div> <!-- END Block grid -->
+
+</div> <!-- END centre col -->
+
+  <div class="col-md-3">
+    
+
+
+
+    <div class="panel">
+        <ul id="myTab1" class="nav nav-tabs nav-justified">
+          <li class="active"><a href="#home1" data-toggle="tab">Home</a></li>
+          <li><a href="#profile1" data-toggle="tab">Profile</a></li>
+          <li class="dropdown">
+            <a href="#" id="myTabDrop1-1" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+              <li><a href="#dropdown1-1" tabindex="-1" data-toggle="tab">@fat</a></li>
+              <li><a href="#dropdown1-2" tabindex="-1" data-toggle="tab">@mdo</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+          <div class="tab-pane fade active in" id="home1">
+            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.</p>
+          </div>
+          <div class="tab-pane fade" id="profile1">
+            <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.  </p>
+          </div>
+          <div class="tab-pane fade" id="dropdown1-1">
+            <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone...</p>
+          </div>
+          <div class="tab-pane fade" id="dropdown1-2">
+            <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche ... </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">List of things</h3>
+        </div>
+        <ul class="list-group">
+              <li class="list-group-item"><span class="badge">14</span>Cras justo odio</li>
+              <li class="list-group-item"><span class="badge badge-default">91</span>Dapibus ac facilisis in</li>
+              <li class="list-group-item"><span class="badge badge-primary">38</span>Morbi leo risus</li>
+              <li class="list-group-item"><span class="badge badge-success">56</span>Porta ac consectetur ac</li>
+              <li class="list-group-item"><span class="badge badge-warning">20</span>Vestibulum at eros</li>
+              <li class="list-group-item"><span class="badge badge-danger">99+</span>Dapibus ac facilisis in</li>
+            </ul>
+      </div>
+
+
+
+
+      <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Panel heading</h3>
+              </div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Username</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+
+  </div>
+
+
+
+
+</div>
+
+
+<div class="col-md-2">
+
+
+{% endblock content%}

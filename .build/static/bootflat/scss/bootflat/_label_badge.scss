@@ -1,0 +1,73 @@
+// Variables
+//------------------------------------------------------
+$label-normal:                  $lightgray-light !default;//$mediumgray-dark !default;
+$label-default:                 $white !default;
+$label-primary:                 $aqua-dark !default;
+$label-success:                 $grass-dark !default;
+$label-danger:                  $grapefruit-dark !default;
+$label-warning:                 $sunflower-dark !default;
+$label-info:                    $mint-dark !default;
+
+$label-default-font-color:      $aqua-dark !default; //$darkgray-dark !default;
+$label-light-font-color:        $white !default;
+
+// Exports
+//------------------------------------------------------
+
+@include exports("label-badge") {
+
+  /**
+   * labels and badges
+   * --------------------------------------------------
+   */
+  .label,
+  .badge {
+    background-color: $label-normal;
+    color: $label-default-font-color;
+    font-weight: normal;
+  }
+
+  .label-default,
+  .badge-default {
+    border: 1px solid $mediumgray-dark; //$button-normal;
+    background-color: $label-default;
+    color: $label-default-font-color;
+  }
+
+  .label-primary,
+  .badge-primary {
+    border-color: $label-primary;
+    background-color: $label-primary;
+    color: $label-light-font-color;
+  }
+
+  .label-success,
+  .badge-success {
+    border-color: $label-success;
+    background-color: $label-success;
+    color: $label-light-font-color;
+  }
+
+  .label-danger,
+  .badge-danger {
+    border-color: $label-danger;
+    background-color: $label-danger;
+    color: $label-light-font-color;
+  }
+
+  .label-warning,
+  .badge-warning {
+    border-color: $label-warning;
+    background-color: $label-warning;
+    color: $label-light-font-color;
+  }
+
+  .label-info,
+  .badge-info {
+    border-color: $label-info;
+    background-color: $label-info;
+    color: $label-light-font-color;
+  }
+}
+
+
