@@ -7,8 +7,8 @@
 
 	<link rel="shortcut icon" href="{% static '/images/favicon.ico' %}">
 	
-
-	<link rel="stylesheet" href="{% static '/css/site.min.css' %}">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="{% static '/css/style.css' %}">
 
 	{% block header %}
 	<title>{% block title %}Default{% endblock %}</title>
@@ -85,7 +85,10 @@
 
 	{% block scripts %}
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<script src="{% static '/js/site.min.js' %}"></script>
+    	<script src="{% static '/js/bootstrap.js' %}"></script>
+    	<script src="{% static '/js/flexmenu.js' %}"></script>
+    	<script src="{% static '/js/init.js' %}"></script>
 	{% endblock scripts%}
+	
 </body>
 </html>

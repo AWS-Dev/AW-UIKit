@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="{% static '/images/favicon.ico' %}">
+  
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{% static '/css/style.css' %}">
+
+
+  {% block header %}
+  <title>Nav options</title>
+  {% endblock header %}
+
+</head>
+<body>
+
+
+
+
+
+<!-- Original -->
+
+<div class="nav-space">
+
+  <div class="main-menu">
+
+    <span class="logo-wrapper">
+      <img src="/static/img/logo.png" />
+    </span>
+
+    <a class="btn btn-primary">Home</a>
+
+    <div class="btn-group">
+        <a class="btn btn-primary dropdown dropdown-hover" data-toggle="dropdown">Login <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Erotica</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Humour</a></li>
+        </ul>
+      </div>
+
+    <a class="btn btn-primary">Search</a>
+    <a class="btn btn-primary">My Details</a>
+    <a class="btn btn-primary">Emails &amp; Bookings</a>
+    <a class="btn btn-primary">Help</a>
+
+
+    <div class="pull-right user-panel">
+      <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+      </span>
+    </div>
+
+  </div>
+
+
+
+  <ul class="sub-menu list-inline flex menu">
+    <li><a class="btn btn-default btn-sm">Escorts</a></li>
+    <li><a class="btn btn-primary btn-sm">Webcam</a></li>
+    <li><a class="btn btn-default btn-sm">Phone Chat</a></li>
+    <li><a class="btn btn-default btn-sm">SMS Chat</a></li>
+    <li><a class="btn btn-default btn-sm">Alternative</a></li>
+    <li><a class="btn btn-default btn-sm">Movies</a></li>
+    <li><a class="btn btn-default btn-sm">Pictures</a></li>
+    <li><a class="btn btn-default btn-sm">Groups</a></li>
+    <li><a class="btn btn-default btn-sm">Tagged</a></li>
+    <li><a class="btn btn-default btn-sm">Other Services</a></li>
+    <li><a class="btn btn-default btn-sm">TV</a></li>
+    <li><a class="btn btn-default btn-sm">Mall</a></li>
+    <!-- <div class="btn-group">
+        <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">More&hellip; <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Erotica</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Humour</a></li>
+        </ul>
+      </div> -->
+
+
+  </ul>
+
+</div>
+
+<!-- END: Original -->
+
+
+
+
+
+
+
+
+
+<!-- Sub menu in header - user moved into drop down -->
+
+<div class="nav-space">
+
+  <div class="main-menu">
+
+    <span class="logo-wrapper">
+      <img src="/static/img/logo.png" />
+    </span>
+
+
+
+
+    <span class="sub-menu-in-header">
+        <a class="btn btn-primary btn-sm">Escorts</a>
+        <a class="btn btn-primary btn-sm">Webcam</a>
+        <a class="btn btn-primary btn-sm">Phone Chat</a>
+        <a class="btn btn-primary btn-sm">SMS Chat</a>
+        <a class="btn btn-primary btn-sm">Alternative</a>
+        <a class="btn btn-primary btn-sm">Movies</a>
+        <a class="btn btn-primary btn-sm">Pictures</a>
+        <a class="btn btn-primary btn-sm">Groups</a>
+        <a class="btn btn-primary btn-sm">Tagged</a>
+        <a class="btn btn-primary btn-sm">Other Services</a>
+        <a class="btn btn-primary btn-sm">TV</a>
+        <a class="btn btn-primary btn-sm">Mall</a>
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">More&hellip; <span class="caret"></span></button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Erotica</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Humour</a></li>
+          </ul>
+        </div>
+    </span>
+
+    <!-- <a class="btn btn-primary">Home</a>
+
+    <div class="btn-group">
+        <a class="btn btn-primary dropdown dropdown-hover" data-toggle="dropdown">Login <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Erotica</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Humour</a></li>
+        </ul>
+      </div>
+
+    <a class="btn btn-primary">Search</a>
+    <a class="btn btn-primary">My Details</a>
+    <a class="btn btn-primary">Emails &amp; Bookings</a>
+    <a class="btn btn-primary">Help</a> -->
+
+
+    <div class="pull-right user-panel">
+      <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+      </span>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- END: Sub menu in header - user moved into drop down -->
+
+
+
+
+
+<!-- nav bar -->
+
+<div class="nav-space">
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="/static/img/logo.png" /></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+</div>
+
+<!-- END: nav bar -->
+
+
+
+
+
+  <ul class="menu2 flex2 list-inline">
+        <li><a href="#">One</a></li>
+        <li><a href="#">Two</a></li>
+        <li><a href="#">Three</a></li>
+        <li><a href="#">Four</a></li>
+        <li><a href="#">Five</a></li>
+        <li><a href="#">Six</a></li>
+        <li><a href="#">Seven</a></li>
+        <li><a href="#">Eight</a></li>
+    </ul>
+
+
+
+
+
+  {% block scripts %}
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="{% static '/js/bootstrap.js' %}"></script>
+    <script src="{% static '/js/flexmenu.js' %}"></script>
+    <script src="{% static '/js/init.js' %}"></script>
+  {% endblock scripts%}
+</body>
+</html>
+
