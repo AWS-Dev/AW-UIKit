@@ -1,8 +1,8 @@
 $( document ).ready(function() {
     
-    $('ul.menu.flex').flexMenu();
+    // $('ul.menu.flex').flexMenu();
 
-    $('ul.menu2.flex2').flexMenu();
+    // $('ul.menu2.flex2').flexMenu();
 
 });
 

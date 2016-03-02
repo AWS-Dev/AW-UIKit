@@ -143,3 +143,17 @@
 		});
 	};
 }));
+
+
+
+// template markup for the dropdowns in the header
+/*
+<li class="btn-group">
+      <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">More&hellip; <span class="caret"></span></button>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Erotica</a></li>
+        <li><a href="#">Blogs</a></li>
+        <li><a href="#">Humour</a></li>
+      </ul>
+    </li>
+*/

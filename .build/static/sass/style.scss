@@ -24,7 +24,12 @@ body {
 .main-menu {
   background: $brand-primary;
   padding: 1rem 2rem;
+
+  &.light {
+    background: #fff;
+  }
 }
+
 
 .logo-wrapper {
   display: inline-block;
@@ -38,8 +43,19 @@ body {
 
 .sub-menu {
   background: $white;
-  padding: 2rem 2rem;
+  padding: 0.5rem 2rem;
   border-bottom: 1px solid $gray-light;
+  margin-bottom: 0;
+
+  &.light {
+    background: $brand-primary;
+    border-bottom-color: $gray-light;
+  }
+
+  &.level-2 {
+    background: $gray-lighter;
+    border-bottom-color: $gray-light;
+  }
 }
 
 .page-content {
@@ -48,8 +64,8 @@ body {
 
 
 .user-panel {
-  font-size: 2em;
-  color: darken($brand-primary, 3%);
+  // font-size: 2em;
+  // color: darken($brand-primary, 3%);
   // border: 2px solid $mediumgray-dark;
   // border-radius: 100px;
 }
